@@ -2,43 +2,80 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+    <div class="bio-container">
+      <div class="bio-left">
+        {% if page.profile and page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'bio-image rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'bio-image rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        
+        <div class="bio-info">
+          <h1 class="bio-name">
+            {% if site.title == 'blank' %}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+          
+          {% if page.position %}
+            <p class="bio-position">{{ page.position }}</p>
+          {% endif %}
+          
+          {% if page.affiliation %}
+            <p class="bio-affiliation">
+              {% if page.affiliation_link %}
+                <a href="{{ page.affiliation_link }}" target="_blank">{{ page.affiliation }}</a>
+              {% else %}
+                {{ page.affiliation }}
+              {% endif %}
+            </p>
+          {% endif %}
+        </div>
+
+        <!-- Social Icons -->
+        {% if page.social %}
+          <div class="bio-social">
+            {% include social.liquid %}
+          </div>
         {% endif %}
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="bio-right">
+        <div class="bio-content">
+          <h2>Biography</h2>
+          {{ content }}
+        </div>
+
+        <!-- Download Links -->
+        {% if page.cv_link or page.bio_link %}
+          <div class="download-links">
+            {% if page.cv_link %}
+              <p>
+                <i class="fas fa-download"></i> 
+                Download my complete CV: <a href="{{ page.cv_link }}" target="_blank">link</a>.
+              </p>
+            {% endif %}
+            {% if page.bio_link %}
+              <p>
+                <i class="fas fa-download"></i> 
+                Download my bio: <a href="{{ page.bio_link }}" target="_blank">link</a>.
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -64,17 +101,136 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>
+
+<style>
+.bio-container {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.bio-left {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.bio-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.bio-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.bio-position {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.bio-affiliation {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 0;
+}
+
+.bio-affiliation a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.bio-affiliation a:hover {
+  text-decoration: underline;
+}
+
+.bio-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.bio-social a {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.bio-social a:hover {
+  color: #007bff;
+}
+
+.bio-right {
+  flex: 1;
+}
+
+.bio-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.bio-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.download-links {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.download-links p {
+  margin-bottom: 0.5rem;
+}
+
+.download-links i {
+  margin-right: 0.5rem;
+}
+
+.download-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .bio-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .bio-left {
+    flex: none;
+    align-items: center;
+  }
+  
+  .bio-info {
+    text-align: center;
+  }
+}
+</style>

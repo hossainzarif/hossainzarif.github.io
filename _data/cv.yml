@@ -2,96 +2,113 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: MZ. Hossain
+    - name: Current Position
+      value: Doctoral Fellow & Graduate Research Assistant
+    - name: Research Focus
+      value: Machine Learning, Robust and Secure AI Systems
+    - name: Specialization
+      value: Generative AI, LLMs, VLMs, Federated Learning
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. Fellow in Computer Science
+      institution: School of Computing, Southern Illinois University, Carbondale
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 3.958 out of 4.00
+        - Research focus on robust and secure AI systems
+        - Graduate Research Assistant at SPEED Lab
+    - title: Bachelor of Science in Software Engineering
+      institution: Department of Computer Science and Engineering, Islamic University of Technology, Gazipur
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA: 3.79 out of 4.00
+        - Focus on software engineering and computer science fundamentals
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Advanced Research Intern
+      institution: AT&T, Bedminster, NJ
+      year: Summer 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Upcoming research internship focusing on advanced AI systems
+    - title: Graduate Research Assistant, SPEED Lab
+      institution: Southern Illinois University, Carbondale
+      year: January 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Research on robust and secure AI systems
+        - Focus on adversarial attacks and defenses in ML models
+        - Published multiple papers in top-tier conferences
+    - title: Lecturer
+      institution: Shanto-Mariam University of Creative Technology
+      year: July 2022 - December 2022
       description:
+        - Teaching computer science and software engineering courses
+    - title: Fullstack Software Developer
+      institution: Sari LLC, Square, WA, USA
+      year: July 2021 - February 2022
+      description:
+        - Full-stack development using modern web technologies
+        - Worked on scalable web applications
+    - title: Software Developer Intern
+      institution: Brain Station 23, Dhaka, Bangladesh
+      year: February 2021 - May 2021
+      description:
+        - Software development and testing
+        - Gained experience in software engineering practices
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "SLADE: Shielding against Dual Exploits in Large Vision-Language Models"
+      institution: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025
+      year: 2025
+      description: Ranked #1 CS Conference, 22.1% Acceptance Rate
+    - title: "Blockchain-Empowered Cyber-Secure Federated Learning for Trustworthy Edge Computing"
+      institution: IEEE Transactions on Artificial Intelligence
+      year: 2025
+      description: Q1 Journal
+    - title: "Securing vision-language models with a robust encoder against jailbreak and adversarial attacks"
+      institution: IEEE International Conference on Big Data (BigData)
+      year: 2024
+      description: Pages 6250-6259
+    - title: "Sim-CLIP: Unsupervised Siamese Adversarial Fine-Tuning for Robust and Semantically-Rich Vision-Language Models"
+      institution: arXiv preprint arXiv:2407.14971
+      year: 2024
+      description: Under Review in IEEE Transactions on Big Data
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Robust and Secure AI Systems
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Adversarial attacks and defenses
+        - Model robustness and reliability
+        - AI safety and trustworthiness
+    - title: Vision-Language Models
       items:
-        - Description 1.
-        - Description 2.
+        - Large Language Models (LLMs)
+        - Vision-Language Models (VLMs)
+        - Multimodal AI systems
+    - title: Federated Learning
+      items:
+        - Privacy-preserving machine learning
+        - Distributed AI systems
+        - Edge computing and IoT
 
-- title: Other Interests
-  type: list
+- title: Skills
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Machine Learning & AI
+      items:
+        - Deep Learning frameworks (PyTorch, TensorFlow)
+        - Computer Vision and NLP
+        - Federated Learning systems
+    - title: Programming
+      items:
+        - Python, Java, C++, JavaScript
+        - Full-stack web development
+        - Software engineering practices

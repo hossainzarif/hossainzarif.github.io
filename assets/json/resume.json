@@ -1,200 +1,165 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "MZ. Hossain",
+    "label": "Doctoral Fellow specializing in Machine Learning",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "mz.hossain@siu.edu",
+    "phone": "",
+    "url": "https://hossainzarif.github.io/",
+    "summary": "Doctoral Fellow specializing in Machine Learning, with a research focus on building robust and secure AI systems. My expertise spans Generative AI, Large Language Models (LLMs), Vision-Language Models (VLMs), and Federated Learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Carbondale",
       "countryCode": "US",
-      "region": "California"
+      "region": "Illinois"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "hossainzarif",
+        "url": "https://github.com/hossainzarif"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "AT&T",
+      "position": "Advanced Research Intern",
+      "url": "https://att.com",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-31",
+      "summary": "Advanced research internship focusing on robust and secure AI systems.",
+      "highlights": ["Research on AI security", "Advanced ML systems"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Southern Illinois University, Carbondale",
+      "position": "Graduate Research Assistant, SPEED Lab",
+      "url": "https://siu.edu",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "summary": "Research on robust and secure AI systems with focus on adversarial attacks and defenses in ML models.",
+      "highlights": ["Published papers in top-tier conferences", "Research on Vision-Language Models", "Federated Learning security"]
+    },
+    {
+      "name": "Shanto-Mariam University of Creative Technology",
+      "position": "Lecturer",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-31",
+      "summary": "Teaching computer science and software engineering courses.",
+      "highlights": ["Course instruction", "Academic mentoring"]
+    },
+    {
+      "name": "Sari LLC",
+      "position": "Fullstack Software Developer",
+      "url": "",
+      "startDate": "2021-07-01",
+      "endDate": "2022-02-28",
+      "summary": "Full-stack development using modern web technologies and scalable web applications.",
+      "highlights": ["Full-stack development", "Scalable applications"]
+    },
+    {
+      "name": "Brain Station 23",
+      "position": "Software Developer Intern",
+      "url": "https://brainstation-23.com",
+      "startDate": "2021-02-01",
+      "endDate": "2021-05-31",
+      "summary": "Software development and testing, gained experience in software engineering practices.",
+      "highlights": ["Software development", "Testing practices"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Southern Illinois University, Carbondale",
+      "location": "Carbondale, IL, USA",
+      "url": "https://siu.edu/",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2023-01-01",
+      "endDate": "Present",
+      "score": "3.958/4.00",
+      "courses": ["Machine Learning", "Computer Vision", "Natural Language Processing", "Cybersecurity"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Islamic University of Technology, Gazipur",
+      "location": "Gazipur, Bangladesh",
+      "url": "https://www.iut-dhaka.edu/",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018-01-01",
+      "endDate": "2022-12-31",
+      "score": "3.79/4.00",
+      "courses": ["Software Engineering", "Data Structures", "Algorithms", "Database Systems"]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "SLADE: Shielding against Dual Exploits in Large Vision-Language Models",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "Novel defense mechanism for Vision-Language Models against dual exploits. Accepted at top-tier CS conference with 22.1% acceptance rate."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Blockchain-Empowered Cyber-Secure Federated Learning for Trustworthy Edge Computing",
+      "publisher": "IEEE Transactions on Artificial Intelligence",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "Comprehensive approach to securing federated learning systems using blockchain technology for edge computing environments."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Securing vision-language models with a robust encoder against jailbreak and adversarial attacks",
+      "publisher": "IEEE International Conference on Big Data (BigData)",
+      "releaseDate": "2024-12-01",
+      "url": "",
+      "summary": "Defense mechanism for Vision-Language Models focusing on robust encoding techniques against various attack vectors."
+    },
+    {
+      "name": "Sim-CLIP: Unsupervised Siamese Adversarial Fine-Tuning for Robust and Semantically-Rich Vision-Language Models",
+      "publisher": "arXiv preprint arXiv:2407.14971",
+      "releaseDate": "2024-07-01",
+      "url": "https://arxiv.org/abs/2407.14971",
+      "summary": "Unsupervised approach to enhance Vision-Language Models through Siamese adversarial fine-tuning."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Federated Learning",
+        "Adversarial ML"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Programming",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Java",
+        "C++",
+        "JavaScript"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "AI Security",
+      "icon": "fa-solid fa-shield-alt",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Adversarial Attacks",
+        "Model Robustness",
+        "AI Safety",
+        "Trustworthy AI"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
