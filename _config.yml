@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: MZ.
+first_name: Md Zarif
 middle_name: 
 last_name: Hossain
 contact_note: >
   Feel free to reach out via email or social media for research collaboration or inquiries.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of MZ. Hossain, Doctoral Fellow specializing in Machine Learning with focus on robust and secure AI systems.
+  Personal website of Md Zarif Hossain, Doctoral Fellow specializing in Machine Learning with focus on robust and secure AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -186,14 +186,25 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
 keep_files:
-  - CNAME
-  - .nojekyll
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
 
 # Plug-ins
 plugins:
@@ -264,7 +275,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Hossain]
-  first_name: [MZ., MZ]
+  first_name: [Md Zarif]
 
   style: apa
   locale: en

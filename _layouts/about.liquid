@@ -12,9 +12,10 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'bio-image rounded' %}
           {% endif %}
+          
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
-            cache_bust=true
+            cache_bust=false
           %}
         {% endif %}
         
@@ -83,6 +84,12 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Experience -->
+    {% if page.experience %}
+      <h2>Experience</h2>
+      {% include experience.liquid %}
     {% endif %}
 
     <!-- Latest posts -->
