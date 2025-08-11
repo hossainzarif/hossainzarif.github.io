@@ -100,13 +100,11 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+    <!-- Research Highlights (home) -->
+    <h2>
+      <a href="{{ '/research-highlights/' | relative_url }}" style="color: inherit">Research Highlights</a>
+    </h2>
+    {% include research_highlights_home.liquid %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
@@ -192,8 +190,10 @@ layout: default
 .bio-content h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  margin-top: 0;
   margin-bottom: 1.5rem;
   color: #333;
+  border-bottom: none;
 }
 
 .bio-content {
@@ -224,6 +224,31 @@ layout: default
   text-decoration: underline;
 }
 
+/* Section headings styling */
+article h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+article h2:first-of-type {
+  margin-top: 2rem;
+}
+
+article h2 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+article h2 a:hover {
+  color: #007bff;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .bio-container {
@@ -238,6 +263,12 @@ layout: default
   
   .bio-info {
     text-align: center;
+  }
+  
+  article h2 {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
   }
 }
 </style>
