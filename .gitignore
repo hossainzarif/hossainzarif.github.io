@@ -14,3 +14,11 @@ vendor
 
 
 # Large files
+*.mp4
+*.png
+*.jpg
+*.jpeg
+assets/video/
+assets/img/*.png
+assets/img/*.jpg
+assets/img/*.jpeg
