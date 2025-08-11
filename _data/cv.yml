@@ -31,34 +31,20 @@
   type: time_table
   contents:
     - title: Advanced Research Intern
-      institution: AT&T, Bedminster, NJ
+      institution: AT&T Research Labs, Bedminster, NJ
       year: Summer 2025
       description:
-        - Upcoming research internship focusing on advanced AI systems
+
     - title: Graduate Research Assistant, SPEED Lab
       institution: Southern Illinois University, Carbondale
       year: January 2023 - Present
       description:
-        - Research on robust and secure AI systems
-        - Focus on adversarial attacks and defenses in ML models
-        - Published multiple papers in top-tier conferences
-    - title: Lecturer
-      institution: Shanto-Mariam University of Creative Technology
-      year: July 2022 - December 2022
-      description:
-        - Teaching computer science and software engineering courses
+
     - title: Fullstack Software Developer
       institution: Sari LLC, Square, WA, USA
       year: July 2021 - February 2022
       description:
-        - Full-stack development using modern web technologies
-        - Worked on scalable web applications
-    - title: Software Developer Intern
-      institution: Brain Station 23, Dhaka, Bangladesh
-      year: February 2021 - May 2021
-      description:
-        - Software development and testing
-        - Gained experience in software engineering practices
+  
 
 - title: Selected Publications
   type: time_table
