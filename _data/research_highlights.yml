@@ -118,7 +118,7 @@
     - name: "Imteaj, Ahmed"
       affiliation: "Southern Illinois University"
   description: "Examining the robustness of Vision-Language Models in autonomous vehicle applications under targeted and untargeted adversarial attacks."
-  image: "fig1cvpr.png"
+  image: "trustworthy.png"
   image_alt: "Research Architecture Overview"
   links:
     - name: "Paper"

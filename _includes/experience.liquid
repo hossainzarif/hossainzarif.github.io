@@ -6,7 +6,15 @@
         <div class="experience-item">
           <div class="experience-header">
             <div class="company-logo">
-              <div class="logo-placeholder"></div>
+              {% if content.institution contains "Southern Illinois University" %}
+                <img src="assets/img/siu_square.png" alt="SIU Logo" class="company-logo-img">
+              {% elsif content.institution contains "AT&T" %}
+                <img src="assets/img/att.png" alt="AT&T Logo" class="company-logo-img">
+              {% elsif content.institution contains "Sari LLC" %}
+                <img src="assets/img/sari_logo.png" alt="Sari LLC Logo" class="company-logo-img">
+              {% else %}
+                <div class="logo-placeholder"></div>
+              {% endif %}
             </div>
             <div class="experience-info">
               <div class="experience-title-row">
@@ -67,6 +75,16 @@
 
 .company-logo {
   flex-shrink: 0;
+}
+
+.company-logo-img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 6px;
+  background-color: white;
+  padding: 4px;
+  border: 1px solid #e9ecef;
 }
 
 .logo-placeholder {
@@ -163,6 +181,11 @@
     margin-bottom: 0.6rem;
   }
   
+  .company-logo-img {
+    width: 56px;
+    height: 56px;
+  }
+  
   .logo-placeholder {
     width: 56px;
     height: 56px;
@@ -218,6 +241,15 @@
 @media (max-width: 480px) {
   .experience-header {
     gap: 0.6rem;
+  }
+  
+  .company-logo {
+    align-self: center;
+  }
+  
+  .company-logo-img {
+    width: 48px;
+    height: 48px;
   }
   
   .logo-placeholder {

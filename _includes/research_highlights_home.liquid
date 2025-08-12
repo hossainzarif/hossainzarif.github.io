@@ -1,7 +1,8 @@
 {% assign highlights = site.data.research_highlights | sort: 'importance' %}
 <div class="home-research-highlights">
   {% for project in highlights limit:6 %}
-    <div class="hrh-item">
+    {% assign image_name = project.image | split: '.' | first %}
+    <div class="hrh-item hrh-{{ image_name }}">
       <div class="hrh-header">
         <h3 class="hrh-title">{{ project.title }}</h3>
         <div class="hrh-authors">
@@ -157,6 +158,31 @@
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Specific styling for Blockchain paper image */
+.hrh-arch-image img[src*="blockchain.png"] {
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #007bff;
+  background-color:rgb(255, 255, 255);
+  padding: 8px;
+}
+
+/* Specific styling for Blockchain paper using class approach */
+.hrh-blockchain .hrh-arch-image img {
+  max-width: 75%;
+  height: auto;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.hrh-blockchain .hrh-arch-image {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .hrh-arch-caption {
