@@ -37,7 +37,7 @@
     - name: "Ahmed Imteaj"
       affiliation: "Southern Illinois University"
   description: "Unsupervised approach to enhance Vision-Language Models through Siamese adversarial fine-tuning for improved robustness and semantic richness."
-  image: "fig1cvpr.png"
+  image: "simclip.png"
   image_alt: "Research Architecture Overview"
   links:
     - name: "Paper"
@@ -66,7 +66,7 @@
     - name: "Amini, M. H."
       affiliation: "Southern Illinois University"
   description: "Blockchain-enhanced framework ensuring privacy and security in distributed machine learning across edge computing environments."
-  image: "fig1cvpr.png"
+  image: "blockchain.png"
   image_alt: "Research Architecture Overview"
   links:
     - name: "Paper"
@@ -89,7 +89,7 @@
     - name: "Ahmed Imteaj"
       affiliation: "Southern Illinois University"
   description: "Comprehensive defense mechanism for Vision-Language Models focusing on robust encoding techniques against various attack vectors."
-  image: "fig1cvpr.png"
+  image: "jailbreak.png"
   image_alt: "Research Architecture Overview"
   links:
     - name: "Paper"

@@ -207,8 +207,8 @@ nav_order: 2
 }
 
 .architecture-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 95%;
+  /* height: auto; */
   border-radius: 8px;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
