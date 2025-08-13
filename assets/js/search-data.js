@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-experience",
-          title: "Experience",
-          description: "Professional experience and research positions",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/experience/";
-          },
-        },{id: "nav-research-highlights",
-          title: "Research Highlights",
-          description: "Explore our cutting-edge research projects in AI security, vision-language models, and federated learning.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/research-highlights/";
-          },
-        },{id: "post-a-post-with-plotly-js",
+  },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
