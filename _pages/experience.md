@@ -3,7 +3,7 @@ layout: page
 title: Experience
 permalink: /experience/
 description: Professional experience and research positions
-nav: true
+nav: false
 nav_order: 2
 ---
 

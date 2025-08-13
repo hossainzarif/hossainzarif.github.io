@@ -87,7 +87,7 @@
                         <div class="dropdown-divider"></div>
                       {% else %}
                         <a
-                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                          class="nav-link {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
                           {{- child.title -}}
@@ -116,6 +116,16 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          
+          <!-- Experience Section Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          
+          <!-- Research Highlights Section Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#research-highlights">Research Highlights</a>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
@@ -139,3 +149,22 @@
     </progress>
   {% endif %}
 </header>
+
+<style>
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+  transform: translateY(-1px);
+}
+
+.navbar-brand {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.02);
+}
+</style>

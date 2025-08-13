@@ -6,14 +6,15 @@
         <div class="experience-item">
           <div class="experience-header">
             <div class="company-logo">
-              {% if content.institution contains "Southern Illinois University" %}
+              <!-- Debug: {{ content.institution }} -->
+              {% if content.institution == "Southern Illinois University, Carbondale" %}
                 <img src="assets/img/siu_square.png" alt="SIU Logo" class="company-logo-img">
-              {% elsif content.institution contains "AT&T" %}
+              {% elsif content.institution == "AT&T Research Labs, Bedminster, NJ" %}
                 <img src="assets/img/att.png" alt="AT&T Logo" class="company-logo-img">
-              {% elsif content.institution contains "Sari LLC" %}
+              {% elsif content.institution == "Sari LLC, Square, WA, USA" %}
                 <img src="assets/img/sari_logo.png" alt="Sari LLC Logo" class="company-logo-img">
               {% else %}
-                <div class="logo-placeholder"></div>
+                <div class="logo-placeholder">{{ content.institution }}</div>
               {% endif %}
             </div>
             <div class="experience-info">
@@ -60,6 +61,14 @@
   padding: 0.75rem 0;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  background-color: #f8f9fa;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 6px;
 }
 
 .experience-item:last-child {
@@ -85,6 +94,12 @@
   background-color: white;
   padding: 4px;
   border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.company-logo-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .logo-placeholder {

@@ -2,9 +2,9 @@
 layout: page
 title: Research Highlights
 permalink: /research-highlights/
-description: Explore our cutting-edge research projects in AI security, vision-language models, and federated learning.
-nav: true
-nav_order: 2
+description: Selected research highlights and publications
+nav: false
+nav_order: 3
 ---
 
 <div class="research-highlights">

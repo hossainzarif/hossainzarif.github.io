@@ -88,7 +88,7 @@ layout: default
 
     <!-- Experience -->
     {% if page.experience %}
-      <h2>Experience</h2>
+      <h2 id="experience">Experience</h2>
       {% include experience.liquid %}
     {% endif %}
 
@@ -101,7 +101,7 @@ layout: default
     {% endif %}
 
     <!-- Research Highlights (home) -->
-    <h2>
+    <h2 id="research-highlights">
       <a href="{{ '/research-highlights/' | relative_url }}" style="color: inherit">Research Highlights</a>
     </h2>
     {% include research_highlights_home.liquid %}
