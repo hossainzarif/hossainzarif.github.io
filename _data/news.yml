@@ -1,19 +1,51 @@
-- title: "Paper Accepted at CVPR 2025"
-  date: 2025-01-15
-  content: "Our paper 'SLADE: Shielding against Dual Exploits in Large Vision-Language Models' has been accepted at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025. This is a significant milestone in our research on robust AI systems."
-
 - title: "Research Internship at AT&T Research Labs"
-  date: 2025-01-10
-  content: "Excited to announce that I will be joining AT&T Research Labs as an Advanced Research Intern for Summer 2025. Looking forward to working on cutting-edge AI research projects."
+  date: 2025-06-18
+  content: "Excited to announce that I will be joining AT&T Research Labs as an Advanced Research Intern for Summer 2025."
 
+- title: "Paper Accepted at CVPR 2025"
+  date: 2025-01-23
+  content: "Our paper 'SLADE: Shielding against Dual Exploits in Large Vision-Language Models' has been accepted at CVPR25"
+
+- title: "Paper Accepted at CVPR 2025"
+  date: 2025-03-28
+  content: "Paper accepted at CVPR 2025 FAIR, DATA-EFFICIENT, AND TRUSTED COMPUTER VISION Workshop."
+  
 - title: "New Publication in IEEE Transactions on AI"
-  date: 2025-01-05
-  content: "Our collaborative work 'Blockchain-Empowered Cyber-Secure Federated Learning for Trustworthy Edge Computing' has been published in IEEE Transactions on Artificial Intelligence (Q1 Journal)."
+  date: 2025-04-12
+  content: "Paper accepted at IEEE Transactions on Artificial Intelligence (Q1 Journal)."
+
+- title: "Paper Accepted at CVPR 2025"
+  date: 2024-12-05
+  content: "AAAI 25 Spring Symposium: One paper accepted!"
 
 - title: "Conference Presentation at BigData 2024"
-  date: 2024-12-20
-  content: "Presented our research on 'Securing Vision-Language Models Against Jailbreak and Adversarial Attacks' at IEEE International Conference on Big Data (BigData) 2024. Great discussions with fellow researchers!"
+  date: 2024-11-27
+  content: "Presented our research on 'Securing Vision-Language Models Against Jailbreak and Adversarial Attacks' at IEEE International Conference on Big Data (BigData) 2024."
 
+- title: "Paper accepted at BigData 2024"
+  date: 2024-10-03
+  content: "Our paper 'Securing Vision-Language Models Against Jailbreak and Adversarial Attacks' has been accepted at IEEE BigData 2024.
+  
+- title: "Awarded Prestigious Doctoral Fellowship"
+  date: 2024-08-10
+  content: "Honored to receive the prestigious Doctoral Fellowship award from SIU, supporting my PhD research in secure and robust AI."
+
+- title: "Paper accepted at BigData 2024"
+  date: 2024-05-14
+  content: "Paper accepted at IEEE ICDCS24 Workshop"
+
+- title: "Paper accepted at BigData 2024"
+  date: 2024-07-29
+  content: "Three papers accepted at IEEE COMPSAC 2024"
+
+- title: "Paper accepted at BigData 2024"
+  date: 2023-08-18
+  content: "Received Prestigious NSF Travel grant"
+
+- title: "Paper accepted at BigData 2024"
+  date: 2023-08-18
+  content: "One Paper accepted at IEEE SMARTCOMP'23"
+  
 - title: "Graduate Research Assistant Position"
-  date: 2023-01-15
-  content: "Started my role as Graduate Research Assistant at SPEED Lab, Southern Illinois University, Carbondale. Working under the supervision of Dr. Ahmed Imteaj on robust and secure AI systems." 
+  date: 2023-02-21
+  content: "Started my role as Graduate Research Assistant at SPEED Lab, Southern Illinois University, Carbondale."
