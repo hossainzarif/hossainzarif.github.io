@@ -13,7 +13,6 @@ profile:
 
 social: true # includes social icons
 cv_link: "CV.pdf" # link to your CV
-bio_link: "assets/pdf/bio.pdf" # link to your bio (optional)
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 experience: true # includes experience section from cv.yml
