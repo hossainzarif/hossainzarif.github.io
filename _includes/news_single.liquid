@@ -1,6 +1,6 @@
 {% assign news_items = site.data.news | sort: 'date' | reverse %}
 <div class="news-section">
-  {% for news in news_items limit:5 %}
+  {% for news in news_items %}
     <div class="news-item">
       <div class="news-date">
         <strong>{{ news.date | date: "%b %d, %Y" }}</strong>
@@ -35,7 +35,7 @@
 .news-content {
   flex: 1;
   font-size: 0.95rem;
-  color: #555;
+  color: #000;
   line-height: 1.4;
 }
 
