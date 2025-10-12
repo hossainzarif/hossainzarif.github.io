@@ -42,7 +42,7 @@ nav_order: 3
           {% endfor %}
         </div>
       </div>
-      
+
       <div class="architecture-container-large">
         <div class="architecture-image-large">
           <img src="assets/img/{{ project.image }}" alt="{{ project.image_alt }}" class="img-fluid architecture-img">
@@ -53,6 +53,7 @@ nav_order: 3
       </div>
     </div>
     {% endfor %}
+
   </div>
 </div>
 
@@ -260,4 +261,4 @@ nav_order: 3
     padding: 0.75rem;
   }
 }
-</style> 
+</style>

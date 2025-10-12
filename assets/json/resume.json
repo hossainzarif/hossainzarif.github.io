@@ -128,38 +128,20 @@
       "name": "Machine Learning",
       "level": "Expert",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Deep Learning",
-        "Computer Vision",
-        "Natural Language Processing",
-        "Federated Learning",
-        "Adversarial ML"
-      ]
+      "keywords": ["Deep Learning", "Computer Vision", "Natural Language Processing", "Federated Learning", "Adversarial ML"]
     },
     {
       "name": "Programming",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "Java",
-        "C++",
-        "JavaScript"
-      ]
+      "keywords": ["Python", "PyTorch", "TensorFlow", "Java", "C++", "JavaScript"]
     }
   ],
   "interests": [
     {
       "name": "AI Security",
       "icon": "fa-solid fa-shield-alt",
-      "keywords": [
-        "Adversarial Attacks",
-        "Model Robustness",
-        "AI Safety",
-        "Trustworthy AI"
-      ]
+      "keywords": ["Adversarial Attacks", "Model Robustness", "AI Safety", "Trustworthy AI"]
     }
   ]
 }

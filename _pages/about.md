@@ -30,4 +30,3 @@ announcements:
 I am a Doctoral Fellow specializing in Machine Learning at [Florida Atlantic University, Boca Raton](https://www.fau.edu/) where I work as a Graduate Research Assistant in the SPEED Lab under the supervision of [Dr. Ahmed Imteaj](https://sites.google.com/view/imteaj-cs?usp=sharing).
 
 My research is centered on building robust and secure AI systems. I develop methods that enhance the reliability, safety, and trustworthiness of AI in real-world environments, with expertise spanning Generative AI, Large Language Models (LLMs), Vision-Language Models (VLMs), and Federated Learning. Additionally, I work on scalable, efficient, and resilient AI solutions that address industry-critical challenges—particularly those involving adversarial threats, data privacy, and model robustness.
-

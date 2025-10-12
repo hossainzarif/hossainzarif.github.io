@@ -1,17 +1,17 @@
 <div class="experience-section">
   {% assign cv = site.data.cv %}
   {% for section in cv %}
-    {% if section.title == "Experience" %}
+    {% if section.title == 'Experience' %}
       {% for content in section.contents %}
         <div class="experience-item">
           <div class="experience-header">
             <div class="company-logo">
               <!-- Debug: {{ content.institution }} -->
-              {% if content.institution == "Southern Illinois University, Carbondale" %}
+              {% if content.institution == 'Southern Illinois University, Carbondale' %}
                 <img src="assets/img/siu_square.png" alt="SIU Logo" class="company-logo-img">
-              {% elsif content.institution == "AT&T Research Labs, Bedminster, NJ" %}
+              {% elsif content.institution == 'AT&T Research Labs, Bedminster, NJ' %}
                 <img src="assets/img/att.png" alt="AT&T Logo" class="company-logo-img">
-              {% elsif content.institution == "Sari LLC, Square, WA, USA" %}
+              {% elsif content.institution == 'Sari LLC, Square, WA, USA' %}
                 <img src="assets/img/sari_logo.png" alt="Sari LLC Logo" class="company-logo-img">
               {% else %}
                 <div class="logo-placeholder">{{ content.institution }}</div>
@@ -51,237 +51,237 @@
 </div>
 
 <style>
-.experience-section {
-  margin-top: 1rem;
-  width: 100%;
-  max-width: none;
-}
-
-.experience-item {
-  padding: 0.75rem 0;
-  margin-bottom: 0.5rem;
-  border-bottom: 1px solid #f0f0f0;
-  transition: all 0.3s ease;
-}
-
-.experience-item:hover {
-  background-color: #f8f9fa;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 6px;
-}
-
-.experience-item:last-child {
-  border-bottom: none;
-}
-
-.experience-header {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.company-logo {
-  flex-shrink: 0;
-}
-
-.company-logo-img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  border-radius: 6px;
-  background-color: white;
-  padding: 4px;
-  border: 1px solid #e9ecef;
-  transition: all 0.3s ease;
-}
-
-.company-logo-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.logo-placeholder {
-  width: 60px;
-  height: 60px;
-  background: #f0f0f0;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-size: 12px;
-}
-
-.experience-info {
-  flex: 1;
-  min-width: 0;
-}
-
-.experience-title-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.25rem;
-}
-
-.job-title {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 0;
-  color: #333;
-  flex: 1;
-}
-
-.job-duration {
-  font-size: 0.9rem;
-  color: #666;
-  font-weight: 500;
-  text-align: right;
-  white-space: nowrap;
-  margin-left: 1rem;
-}
-
-.company-type {
-  font-size: 0.95rem;
-  color: #666;
-  margin: 0 0 0.25rem 0;
-}
-
-.job-location {
-  font-size: 0.85rem;
-  color: #888;
-  margin: 0 0 0.5rem 0;
-}
-
-.job-description {
-  margin-bottom: 0.5rem;
-}
-
-.job-description p {
-  margin: 0.25rem 0;
-  line-height: 1.4;
-  color: #555;
-  font-size: 0.9rem;
-}
-
-.skills {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #666;
-  font-size: 0.85rem;
-}
-
-.skills i {
-  color: #333;
-  font-size: 0.7rem;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .experience-header {
-    flex-direction: column;
-    gap: 0.8rem;
-    align-items: center;
+  .experience-section {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: none;
   }
-  
-  .company-logo {
-    align-self: center;
-  }
-  
+
   .experience-item {
-    padding: 0.8rem 0;
-    margin-bottom: 0.6rem;
+    padding: 0.75rem 0;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
   }
-  
+
+  .experience-item:hover {
+    background-color: #f8f9fa;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 6px;
+  }
+
+  .experience-item:last-child {
+    border-bottom: none;
+  }
+
+  .experience-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .company-logo {
+    flex-shrink: 0;
+  }
+
   .company-logo-img {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: white;
+    padding: 4px;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
   }
-  
+
+  .company-logo-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
   .logo-placeholder {
-    width: 56px;
-    height: 56px;
-  }
-  
-  .experience-title-row {
-    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    background: #f0f0f0;
+    border-radius: 6px;
+    display: flex;
     align-items: center;
-    gap: 0.3rem;
-    text-align: center;
+    justify-content: center;
+    color: #666;
+    font-size: 12px;
   }
-  
+
+  .experience-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .experience-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.25rem;
+  }
+
   .job-title {
     font-size: 1.1rem;
-    text-align: center;
-    margin-bottom: 0.2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    flex: 1;
   }
-  
-  .job-duration {
-    text-align: center;
-    margin-left: 0;
-    font-size: 0.8rem;
-    color: #555;
-  }
-  
-  .company-type {
-    text-align: center;
-    font-size: 0.85rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  .job-location {
-    text-align: center;
-    font-size: 0.75rem;
-    margin-bottom: 0.4rem;
-  }
-  
-  .job-description {
-    text-align: center;
-  }
-  
-  .job-description p {
-    font-size: 0.75rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  .skills {
-    justify-content: center;
-    font-size: 0.7rem;
-  }
-}
 
-@media (max-width: 480px) {
-  .experience-header {
-    gap: 0.6rem;
+  .job-duration {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 1rem;
   }
-  
-  .company-logo {
-    align-self: center;
-  }
-  
-  .company-logo-img {
-    width: 48px;
-    height: 48px;
-  }
-  
-  .logo-placeholder {
-    width: 48px;
-    height: 48px;
-  }
-  
-  .job-title {
-    font-size: 1rem;
-  }
-  
+
   .company-type {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0 0 0.25rem 0;
   }
-  
+
   .job-location {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .job-description {
+    margin-bottom: 0.5rem;
+  }
+
+  .job-description p {
+    margin: 0.25rem 0;
+    line-height: 1.4;
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  .skills {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    font-size: 0.85rem;
+  }
+
+  .skills i {
+    color: #333;
     font-size: 0.7rem;
   }
-}
-</style> 
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .experience-header {
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+    }
+
+    .company-logo {
+      align-self: center;
+    }
+
+    .experience-item {
+      padding: 0.8rem 0;
+      margin-bottom: 0.6rem;
+    }
+
+    .company-logo-img {
+      width: 56px;
+      height: 56px;
+    }
+
+    .logo-placeholder {
+      width: 56px;
+      height: 56px;
+    }
+
+    .experience-title-row {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+      text-align: center;
+    }
+
+    .job-title {
+      font-size: 1.1rem;
+      text-align: center;
+      margin-bottom: 0.2rem;
+    }
+
+    .job-duration {
+      text-align: center;
+      margin-left: 0;
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    .company-type {
+      text-align: center;
+      font-size: 0.85rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .job-location {
+      text-align: center;
+      font-size: 0.75rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .job-description {
+      text-align: center;
+    }
+
+    .job-description p {
+      font-size: 0.75rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .skills {
+      justify-content: center;
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .experience-header {
+      gap: 0.6rem;
+    }
+
+    .company-logo {
+      align-self: center;
+    }
+
+    .company-logo-img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .logo-placeholder {
+      width: 48px;
+      height: 48px;
+    }
+
+    .job-title {
+      font-size: 1rem;
+    }
+
+    .company-type {
+      font-size: 0.8rem;
+    }
+
+    .job-location {
+      font-size: 0.7rem;
+    }
+  }
+</style>

@@ -3,7 +3,7 @@
   {% for news in news_items %}
     <div class="news-item">
       <div class="news-date">
-        <strong>{{ news.date | date: "%b %d, %Y" }}</strong>
+        <strong>{{ news.date | date: '%b %d, %Y' }}</strong>
       </div>
       <div class="news-content">
         {{ news.content }}
@@ -13,44 +13,44 @@
 </div>
 
 <style>
-.news-section {
-  margin-top: 1rem;
-}
+  .news-section {
+    margin-top: 1rem;
+  }
 
-.news-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  gap: 1.5rem;
-}
-
-.news-date {
-  flex-shrink: 0;
-  font-size: 0.95rem;
-  font-weight: bold;
-  color: #333;
-  min-width: 100px;
-}
-
-.news-content {
-  flex: 1;
-  font-size: 0.95rem;
-  color: #000;
-  line-height: 1.4;
-}
-
-@media (max-width: 768px) {
   .news-item {
-    flex-direction: column;
-    gap: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 1.5rem;
   }
-  
+
   .news-date {
-    min-width: auto;
+    flex-shrink: 0;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #333;
+    min-width: 100px;
   }
-  
+
   .news-content {
-    font-size: 0.9rem;
+    flex: 1;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 1.4;
   }
-}
-</style> 
+
+  @media (max-width: 768px) {
+    .news-item {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .news-date {
+      min-width: auto;
+    }
+
+    .news-content {
+      font-size: 0.9rem;
+    }
+  }
+</style>
